@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple-rag-agent"
+version = "0.1.0"
+description = "A small reusable document question-answering component"
+requires-python = ">=3.10"
+dependencies = ["openai>=1.30,<3", "pypdf>=4,<7"]
+
+[project.scripts]
+simple-rag = "simple_rag.cli:main"
+simple-rag-ui = "simple_rag.web:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

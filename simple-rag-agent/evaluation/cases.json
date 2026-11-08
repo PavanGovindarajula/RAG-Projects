@@ -1,0 +1,5 @@
+[
+  {"question": "How many days of annual leave do employees receive?", "expected_source": "handbook.md", "answer_contains": "20", "reference_answer": "Employees receive 20 days of paid annual leave per calendar year."},
+  {"question": "Where do employees submit leave requests?", "expected_source": "handbook.md", "answer_contains": "employee portal", "reference_answer": "Employees submit leave requests through the employee portal."},
+  {"question": "quasar xylophone nebula", "expected_source": null, "answer_contains": null, "reference_answer": "The configured documents do not provide an answer."}
+]
