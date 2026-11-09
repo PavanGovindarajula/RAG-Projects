@@ -1,0 +1,7 @@
+[
+  {"question": "How do I fix VPN-104?", "expected": "VPN error VPN-104"},
+  {"question": "I forgot my login secret", "expected": "Password reset"},
+  {"question": "My computer runs out of power too fast", "expected": "Laptop battery"},
+  {"question": "What does WIFI-220 mean?", "expected": "Wi-Fi error WIFI-220"},
+  {"question": "Who approves access for a new starter?", "expected": "New employee access"}
+]

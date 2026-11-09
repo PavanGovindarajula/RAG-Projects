@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hybrid-local-rag"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["chromadb>=0.5,<2", "sentence-transformers>=3,<6", "rank-bm25>=0.2,<1", "openai>=1.30,<3"]
+
+[project.scripts]
+hybrid-rag = "hybrid_rag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
