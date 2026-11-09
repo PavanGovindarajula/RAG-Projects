@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "corrective-support-rag"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["openai>=1.30,<3", "mcp>=1.6,<2"]
+
+[project.scripts]
+crag = "crag.cli:main"
+crag-gateway = "crag.gateway:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

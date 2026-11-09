@@ -1,0 +1,3 @@
+[
+  {"id":"INC-302-v3", "version":"3.0", "title":"API-503 connection pool exhausted", "text":"For API-503 connection pool exhausted on version 3.0, inspect pool saturation and validate the database connection limit before adjusting pool settings.", "source":"fixture/incident-api/INC-302-v3"}
+]

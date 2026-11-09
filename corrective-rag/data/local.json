@@ -1,0 +1,5 @@
+[
+  {"id":"KB-101-v2", "version":"2.0", "title":"API-503 connection pool exhausted", "text":"For API-503 connection pool exhausted on version 2.0, check active connections and increase the pool limit only after confirming database capacity.", "source":"local/support-kb/KB-101-v2"},
+  {"id":"KB-101-v1", "version":"1.0", "title":"API-503 connection pool exhausted", "text":"For API-503 on version 1.0, restart the connection manager after inspecting active connections.", "source":"local/support-kb/KB-101-v1"},
+  {"id":"KB-201-v2", "version":"2.0", "title":"Login MFA clock drift", "text":"For login MFA clock drift, synchronize the device clock and retry the one-time code.", "source":"local/support-kb/KB-201-v2"}
+]

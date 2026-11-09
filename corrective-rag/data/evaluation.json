@@ -1,0 +1,7 @@
+[
+  {"issue":"API-503 connection pool exhausted", "version":"2.0", "expected_route":"local", "expected_evidence":"KB-101-v2"},
+  {"issue":"API-503 connection pool exhausted", "version":"3.0", "expected_route":"gateway", "expected_evidence":"INC-302-v3"},
+  {"issue":"API-503 connection pool exhausted", "version":"4.0", "expected_route":"human", "expected_evidence":null},
+  {"issue":"Login MFA clock drift", "version":"2.0", "expected_route":"local", "expected_evidence":"KB-201-v2"},
+  {"issue":"Storage cluster corrupted", "version":"2.0", "expected_route":"human", "expected_evidence":null}
+]
