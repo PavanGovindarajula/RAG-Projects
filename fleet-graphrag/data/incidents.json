@@ -1,0 +1,8 @@
+[
+ {"id":"INC-101","access":"ops","text":"Checkout latency spiked when the Redis cache connection pool exhausted. The payment service also experienced cache timeouts.","facts":[["checkout","affected_by","cache exhaustion"],["payment","affected_by","cache exhaustion"]]},
+ {"id":"INC-102","access":"ops","text":"Inventory requests failed after Redis cache connection pool exhaustion caused repeated timeouts.","facts":[["inventory","affected_by","cache exhaustion"]]},
+ {"id":"INC-103","access":"ops","text":"Checkout and search saw elevated errors following certificate expiration in the shared gateway.","facts":[["checkout","affected_by","certificate expiration"],["search","affected_by","certificate expiration"]]},
+ {"id":"INC-104","access":"ops","text":"The inventory service was unavailable when the shared gateway certificate expired.","facts":[["inventory","affected_by","certificate expiration"]]},
+ {"id":"INC-105","access":"restricted","text":"Billing outage traced to a credential rotation failure in the shared gateway.","facts":[["billing","affected_by","credential rotation failure"]]},
+ {"id":"INC-106","access":"ops","text":"Payment requests timed out during Redis connection pool saturation, also called cache exhaustion.","facts":[["payment","affected_by","cache exhaustion"]]}
+]

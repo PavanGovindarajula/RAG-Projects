@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fleet-graphrag"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+models = ["openai>=1.30,<3", "sentence-transformers>=3,<6"]
+
+[project.scripts]
+fleet-graphrag = "fleet_graphrag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

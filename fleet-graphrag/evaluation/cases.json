@@ -1,0 +1,7 @@
+[
+ {"question":"What systemic themes occur across the fleet?","tags":["ops"],"mode":"global","expected_themes":["cache exhaustion","certificate expiration"],"forbidden_sources":["INC-105"]},
+ {"question":"What happened to checkout?","tags":["ops"],"mode":"local","expected_sources":["INC-101","INC-103"],"forbidden_sources":["INC-105"]},
+ {"question":"What happened to billing?","tags":["ops"],"mode":"local","abstain":true,"forbidden_sources":["INC-105"]},
+ {"question":"What happened to billing?","tags":["restricted"],"mode":"local","expected_sources":["INC-105"]},
+ {"question":"What happened to a quantum spaceship?","tags":["ops"],"mode":"local","abstain":true}
+]
